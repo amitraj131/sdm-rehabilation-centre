@@ -104,7 +104,7 @@ export class Form1 extends Component {
   */
 
   if(!isError){
-    Axios.post("http://localhost:3002/demographic_insert",{
+    Axios.post("https://sdm-rehabilation-centre.herokuapp.com/demographic_insert",{
      
      firstName:this.props.values.firstName,
      lastName:this.props.values.lastName,
